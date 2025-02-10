@@ -57,7 +57,7 @@ const Vacancies = async ({
             description={job.description}
             salary={job.salary}
             city={job.city}
-            voivodeship={job.voivodeship}
+            region={job.region}
             responsibilities={job.responsibilities}
             bonuses={job.bonuses}
           />

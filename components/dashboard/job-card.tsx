@@ -13,7 +13,7 @@ interface Props {
   description: string;
   salary: string;
   city: string;
-  voivodeship: string;
+  region: string;
   responsibilities: string[];
   bonuses: string[];
   className?: string;
@@ -26,7 +26,7 @@ const JobCard: React.FC<Props> = ({
   description,
   salary,
   city,
-  voivodeship,
+  region,
   responsibilities,
   bonuses,
 }) => {
@@ -84,7 +84,7 @@ const JobCard: React.FC<Props> = ({
             </p>
             <p>
               <b className="text-blue-700">Kraj:</b>{" "}
-              <span className="text-gray-700">{voivodeship}</span>
+              <span className="text-gray-700">{region}</span>
             </p>
           </div>
         </div>
